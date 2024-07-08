@@ -1,0 +1,32 @@
+Übung 05
+========
+
+Alternativ verwenden Sie das zip-Archiv : git_05.zip
+
+a)
+Öffnen Sie die GIT-Bash im Verzeichnis "git/client01/brep01"
+
+Schauen Sie sich den Status und die History an.
+
+b)
+Die Datei bundeslaender.txt hat noch einige nicht im Index (Stage) übernommene Änderungen.
+
+Ermitteln Sie den Unterschied zwischen der WorkArea und dem Index.
+
+c)
+Ermitteln Sie den Unterschied zwischen der WorkArea und dem (lokalen) Repository
+
+d)
+Machen Sie alle noch nicht im Index übernommenen Änderungen wieder rückgängig.
+
+e)
+Überprüfen Sie den Status des Arbeitsbereiches und committen ggf. mit einer beliebigen Commit-Message.
+
+
+Tipps:
+git remote
+git add
+git commit 
+
+touch bundesliga.txt   (erzeugt eine neue leere Datei)
+ll (Ansicht der im aktuellen Verzeichnis befindlichen Dateien)

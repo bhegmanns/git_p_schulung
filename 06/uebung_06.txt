@@ -1,0 +1,36 @@
+Übung 06
+========
+
+Verwenden Sie das zip-Archiv : git_06.zip
+
+a)
+Gehen Sie in das Verzeichnis "git/client01/brep01".
+
+Schauen Sie sich die History an.
+
+b)
+Veränden Sie die letzte commit-Message (welche ist hier egal, es soll nur eine andere commit-Message schlussendlich stehen)
+
+c)
+Verbleiben Sie im Verzeichnis "git/client02/brep01"
+
+Schauen Sie sich die History an.
+
+Fassen Sie die letzten 3 commits zu einem Commit zusammen, mit dem Namen "bundeslaender aufgeschrieben"
+
+d)
+Gehen Sie in das Verzeichnis "git/client02/brep02"
+
+Schauen Sie sich die History an.
+
+Ermitteln Sie, was genau mit dem letzten commit geändert worden ist.
+
+
+
+Tipps:
+git remote
+git add
+git commit 
+
+touch bundesliga.txt   (erzeugt eine neue leere Datei)
+ll (Ansicht der im aktuellen Verzeichnis befindlichen Dateien)

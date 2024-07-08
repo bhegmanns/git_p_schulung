@@ -1,0 +1,25 @@
+Übung 02
+========
+
+Verwenden Sie das Ergebnis von Übung 01 weiter.
+ODER entzippen Sie "git_01_loesung.zip".
+
+a)
+Öffnen Sie die GIT-Bash im Verzeichnis git/client02.
+
+Clonen Sie das base-Repository aus Übung 01 (git/client01/brepo03).
+
+b)
+Stellen Sie sicher, dass Sie weiterhin im Verzeichnis git/client02 sind.
+
+Clonen Sie nun das Repository, welches sich in repo01 befindet (git/client01/repo01).
+
+c)
+Öffnen Sie nun die GIT-GUI im Verzeichnis git/client02.
+
+Clonen Sie nun das Repository mit Hilfe der GIT-GUI, welches sich in repo02 befindet (git/client01/repo02)
+
+
+
+Tipps:
+git clone

@@ -1,0 +1,55 @@
+Übung 04
+========
+
+Verwenden Sie das zip-Archiv : git_04.zip
+
+a)
+Öffnen Sie die GIT-Bash im Verzeichnis "git/client03/brep01"
+
+Ermitteln Sie das Remote-Repository.
+Führen Sie Änderungen durch, in dem Sie eine neue Datei "bundesliga.txt" anlegen.
+	Beispiel: Erstellen Sie eine neue Datei mit dem Namen "bundesliga.txt"
+	
+Committen Sie ihre Änderungen. (Vergessen Sie nicht die commit-Message ;) )
+
+b)
+Öffnen/Wechseln Sie in der GIT-Bash in das Verzeichnis "git/client02"
+Clonen Sie das Repository "git/repositories/brep01".
+
+Erstellen Sie eine neue Datei "jahreszeiten.txt".
+Committen Sie Ihre durchgeführten Änderungen (vergessen sie nicht die commit-Message ;) )
+
+c)
+Öffnen/Wechseln Sie in der GIT-Bash in das Verzeichnis "git/client01/repo_client01".
+(das ist das Arbeitsverzeichnis)
+
+Erstellen Sie eine neue Datei "lieblingsessen.txt".
+Comitten Sie ihre durchgeführten Änderungen (vergessen sie nicht die commit-Message ;) )
+
+d)
+Stellen Sie sicher, dass Sie sich weiterhin im Verzeichnis "git/client01/repo_client01" befinden.
+
+Ermitteln Sie das Remote-Repositoriy (das sollte nicht existieren ;) )
+Binden sie das lokale Repository an das Repository "git/repositories/brep01" an.
+
+Schauen Sie sich nun an, was welche Dateien sich im aktuellen Verzeichnis befinden.
+
+e)
+Wechseln Sie in das Verzeichnis "git/client04".
+
+Clonen Sie das Repository "git/repositories/brep01".
+
+Wechseln Sie dann in das Verzeichnis "git/client04/brep01".
+Schauen Sie sich den Inhalt des Verzeichnis an.
+
+
+Tipps:
+git remote
+git status
+git clone
+git add
+git commit 
+git config
+
+touch bundesliga.txt   (erzeugt eine neue leere Datei)
+ll (Ansicht der im aktuellen Verzeichnis befindlichen Dateien)

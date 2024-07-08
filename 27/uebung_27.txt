@@ -1,0 +1,42 @@
+Übung 27
+========
+
+Verwenden Sie das zip-Archiv : git_27.zip
+
+a)
+Gehen Sie in das Verzeichnis "git/client01/brep01".
+
+Erstellen Sie einen Branch "client01" und führen an der bundesliga.txt-Datei noch eine Änderung durch.
+Committen Sie Ihre Änderungen und übertragen alles (incl  Branch) ins zentrale Repository.
+
+b)
+Gehen Sie in das Verzeichnis "git/client02/brep01".
+Erstellen Sie einen Branch "client02" und führen an der bundesliga.txt-Datei noch eine Änderung durch;
+aber anders als in a).
+
+
+Committen Sie Ihre Änderungen und übertragen alles (incl  Branch) ins zentrale Repository.
+
+c)
+Gehen Sie in das Verzeichnis "git/client03/brep01".
+Erstellen Sie einen Branch "client03".
+Legen Sie eine neue Datei aktivitaeten.txt an (darf leer sein).
+Committen Sie Ihre Änderungen und übertragen alles (incl  Branch) ins zentrale Repository.
+ 
+
+d)
+Mergen sie den Branch client03 in den master zurück.
+
+e)
+Mergen sie dann den Branch client01 in den master zurück.
+
+
+Tipps:
+git branch
+git merge
+git remote
+git add
+git commit 
+
+touch bundesliga.txt   (erzeugt eine neue leere Datei)
+ll (Ansicht der im aktuellen Verzeichnis befindlichen Dateien)

@@ -1,0 +1,47 @@
+Übung 25
+========
+
+Verwenden Sie das zip-Archiv : git_25.zip
+
+Sie finden vor:
+ein zentrales Repository "git/repositories/brep01"
+Dieses Repository wurde in die drei Clients client1, client2, client3 geklont.
+
+a)
+Schauen Sie sich die Zustände und History für die Clients an.
+
+b)
+Falls es noch etwas zu committen gibt, machen Sie das einfach.
+
+c)
+Übertragen Sie die committeten Änderungen von client1 ins zentrale Repository.
+
+d)
+Wechseln Sie in das Arbeitsverzeichnis von client 2 (git/client02/brep01)
+
+Ermitteln Sie den Unterschied zwischen Ihrem lokalen Repository und dem zentralen Repository.
+
+e)
+Übertragen Sie die comitteten Änderungen von client2 ins zentrale Repository.
+
+
+f)
+Schauen Sie sich die Historie für client2 an.
+
+
+g)
+Wechseln sie nun in das Arbeitsverzeichnis von client3 (git/client03/brep01).
+Übertragen Sie die comitteten Änderungen von client3 in das zentrale Repository.
+
+
+HINWEIS + Frage:
+Für client2 und client 3 müssen Sie sich erst die Änderungen des zentralen Repositories holen.
+Die Auswirkungen des pull-Befehls sind für beide Clients anders. 
+Warum?
+
+Tipps:
+git add
+git commit 
+git pull
+git push
+

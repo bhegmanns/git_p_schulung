@@ -1,0 +1,22 @@
+Übung 26
+========
+
+Verwenden Sie das zip-Archiv : git_26.zip
+
+a)
+Gehen Sie in das Verzeichnis "git/client01/brep01".
+
+Fassen Sie die letzten 3 Commits zusammen mit der Nachricht "Bundesligavereine hinzugefuegt".
+
+
+
+
+
+Tipps:
+git remote
+git add
+git commit 
+git rebase -i HEAD~3
+
+touch bundesliga.txt   (erzeugt eine neue leere Datei)
+ll (Ansicht der im aktuellen Verzeichnis befindlichen Dateien)

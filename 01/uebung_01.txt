@@ -1,0 +1,42 @@
+Übung 01
+========
+
+Entzippen Sie das zip-Archiv "git_01.zip" !
+
+a)
+Öffnen Sie git GIT-Bash im Verzeichnis git/client01
+und erstellen ein neues Verzeichnis "repo01".
+
+HINWEIS:
+Nehmen Sie ggf. den bash-Hilfezettel zur Unterstützung.
+
+b)
+Wechseln Sie in das neu erstellte Verzeichnis.
+und geben nun den Befehl "git init" ein.
+
+c)
+Wechseln Sie in der aktuellen bash entweder in das Verzeichnis
+git/client01 oder öffnen Sie einfach einen neue Bash in diesem Verzeichnis.
+
+Geben Sie nun den Befehl "git init repo02" ein.
+
+d)
+Stellen Sie sicher, dass Sie weiterhin im Verzeichnis git/client1 befinden.
+
+Geben Sie nun den Befehl "git init brepo03 --bare" ein.
+
+e)
+Schauen Sie sich die in den letzten Aufgaben erstellen Verzeichnisse "repo01", "repo02"
+sowie "brepo03" an.
+
+Welche Unterschiede bzw. Gemeinsamkeiten gibt es?
+
+
+Tipps:
+mkdir <verzeichnis>
+cd .. 
+cd <subverzeichnis>
+git init
+git init <verzeichnis>
+git init --bare
+git init <verzeichnis> bare
