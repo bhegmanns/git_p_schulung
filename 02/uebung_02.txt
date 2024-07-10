@@ -1,23 +1,23 @@
 Übung 02
 ========
 
-Verwenden Sie das Ergebnis von Übung 01 weiter.
-ODER entzippen Sie "git_01_loesung.zip".
+Verwenden Sie für diese Übung "git_02.zip".
+
+a)
+Erstellen Sie ein neues bare-Repository "brepo02" in "git/repos"
+mit Tortoise.
 
 a)
 Öffnen Sie die GIT-Bash im Verzeichnis git/client02.
 
-Clonen Sie das base-Repository aus Übung 01 (git/client01/brepo03).
-
-b)
-Stellen Sie sicher, dass Sie weiterhin im Verzeichnis git/client02 sind.
-
-Clonen Sie nun das Repository, welches sich in repo01 befindet (git/client01/repo01).
+Clonen Sie das bare-Repository aus Übung 01 (git/repos/brepo01).
 
 c)
-Öffnen Sie nun die GIT-GUI im Verzeichnis git/client02.
+Clonen Sie mit Hilfe einer GIT-GUI im Verzeichnis git/client03 das bare-Repository aus dieser Übung "brepo02".
 
-Clonen Sie nun das Repository mit Hilfe der GIT-GUI, welches sich in repo02 befindet (git/client01/repo02)
+d)
+Clonen Sie das Repository "https://github.com/bhegmanns/git_p_schulung" aus GIT-HUB in git/client03.
+Nutzen Sie hierzu eine GUI.
 
 
 

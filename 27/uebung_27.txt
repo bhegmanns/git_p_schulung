@@ -4,31 +4,50 @@
 Verwenden Sie das zip-Archiv : git_27.zip
 
 a)
-Gehen Sie in das Verzeichnis "git/client01/brep01".
-
-Erstellen Sie einen Branch "client01" und führen an der bundesliga.txt-Datei noch eine Änderung durch.
-Committen Sie Ihre Änderungen und übertragen alles (incl  Branch) ins zentrale Repository.
+Clonen Sie in allen client-Verzeichnissen das zentrale Repository "repositories/brep01"
 
 b)
-Gehen Sie in das Verzeichnis "git/client02/brep01".
-Erstellen Sie einen Branch "client02" und führen an der bundesliga.txt-Datei noch eine Änderung durch;
-aber anders als in a).
+Ändern sie die Datei "Bundesliga.txt" aus "client01/brep01", in dem Sie beispielsweise eine
+neue Zeile hinzufügen (z.B. "Bayer 04").Committen und pushen Sie die Änderungen.
 
-
-Committen Sie Ihre Änderungen und übertragen alles (incl  Branch) ins zentrale Repository.
+b)
+Ändern Sie nun die Datei "Bundesliga.txt" aus "client02/brep01", ohne vorher den Workspace aktualisiert
+zu haben, indem Sie auch hier eine neue Zeile hinzufügen (z.B. "FC Bayern").
+Committen Sie die Änderungen. Pushen Sie noch nicht (!)
 
 c)
-Gehen Sie in das Verzeichnis "git/client03/brep01".
-Erstellen Sie einen Branch "client03".
-Legen Sie eine neue Datei aktivitaeten.txt an (darf leer sein).
-Committen Sie Ihre Änderungen und übertragen alles (incl  Branch) ins zentrale Repository.
+Pushen Sie nun die Änderungen aus "client02/brep01".
+Behandeln Sie ggf. auftretene Konflikte.
  
 
 d)
-Mergen sie den Branch client03 in den master zurück.
+Holen Sie sich in "client03/brep01" den aktuellen Stand des zentralen Repositories.
+Legen Sie einen neuen Branch an (beliebiger Name, beispielsweise "branch_client03").
+Ändern sie hier die Datei Bundesliga.txt, in dem Sie eine weitere Zeile einfügen und committen
+die Änderungen. Pushen Sie Ihre Änderungen.
 
 e)
-Mergen sie dann den Branch client01 in den master zurück.
+Holen Sie sich in "client02/brep01" den aktuellen Stand des zentralen Repositories.
+Legen Sie einen neuen Branch an (beliebiger Name, beispielsweise "branch/client02").
+Fügen Sie eine neue Datei "wunschliste.txt" ein. Die Datei kann leer bleiben.
+Committen und Pushen Sie die Änderungen.
+
+e)
+Verändern Sie nun in "client01/brep01" die Datei "Bundesliga.txt", in dem sie eine weitere
+Zeile hinzufügen (beispielsweise "Hoffenheim"). Und committen und pushen die Änderungen.
+Funktioniert dies konfliktfrei?
+
+f)
+Mergen Sie nun in "client01/brep01" den Branch von client02 (branch/client02).
+Funktioniert dies konfliktfrei?
+
+g)
+Mergen Sie nun in "client01/brep01" den Brfanch von client03 ("branch_client03").
+Funktioniert dies konfliktfrei?
+
+h)
+Holen sie sich nun für "client03/brep01" die Änderungen aus dem zenralen Repository und
+wechseln in den Main-branch. Wie sieht Ihr Workspace aus?
 
 
 Tipps:

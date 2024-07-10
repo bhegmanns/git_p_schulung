@@ -21,11 +21,12 @@ git/client01 oder öffnen Sie einfach einen neue Bash in diesem Verzeichnis.
 Geben Sie nun den Befehl "git init repo02" ein.
 
 d)
-Stellen Sie sicher, dass Sie weiterhin im Verzeichnis git/client1 befinden.
+Stellen Sie sicher, dass Sie weiterhin im Verzeichnis git/repos befinden.
 
-Geben Sie nun den Befehl "git init brepo03 --bare" ein.
+Geben Sie nun den Befehl "git init brepo01 --bare" ein.
 
-e)
+
+f)
 Schauen Sie sich die in den letzten Aufgaben erstellen Verzeichnisse "repo01", "repo02"
 sowie "brepo03" an.
 

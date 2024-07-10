@@ -5,39 +5,34 @@ Verwenden Sie das zip-Archiv : git_25.zip
 
 Sie finden vor:
 ein zentrales Repository "git/repositories/brep01"
-Dieses Repository wurde in die drei Clients client1, client2, client3 geklont.
 
 a)
-Schauen Sie sich die Zustände und History für die Clients an.
-
+Clonen Sie zunächst das zentrale Repository in die jeweiligen client-Verzeichnisse
+"git/client01", "git/client02"
 b)
-Falls es noch etwas zu committen gibt, machen Sie das einfach.
+Schauen Sie sich die bisherige History an.
 
 c)
-Übertragen Sie die committeten Änderungen von client1 ins zentrale Repository.
+Fügen Sie aus "git/client01/brep01" eine Änderung in der Datei durch und committen diese.
 
 d)
-Wechseln Sie in das Arbeitsverzeichnis von client 2 (git/client02/brep01)
-
-Ermitteln Sie den Unterschied zwischen Ihrem lokalen Repository und dem zentralen Repository.
+Aktualisieren Sie "git/client02/brep01" aus dem remote-Repository und clonen in "git/client03" das zentrale Repository.
+Schauen Sie sich die Inhalte in den Workspaces an.
 
 e)
-Übertragen Sie die comitteten Änderungen von client2 ins zentrale Repository.
-
+Pushen Sie die Änderungen aus dem Workspace "git/client01/brep01" und holen sich die Änderungen in die anderen Clients hinein.
 
 f)
-Schauen Sie sich die Historie für client2 an.
-
+Fügen Sie in "git/client01/brep01" eine neue Datei ein "client01.txt" und committen die Änderung
+und übertragen alles ins zentrale Repository.
 
 g)
-Wechseln sie nun in das Arbeitsverzeichnis von client3 (git/client03/brep01).
-Übertragen Sie die comitteten Änderungen von client3 in das zentrale Repository.
+Fügen Sie (ohne vorher die Änderungen aus dem zentralen Repository geholt zu haben) in "git/client02/brep01" eine neue Datei ein "client02.txt" und committen die Änderung und übertragen
+alles inszentrale Repository.
+  - Funktioniert das alles so ?
 
-
-HINWEIS + Frage:
-Für client2 und client 3 müssen Sie sich erst die Änderungen des zentralen Repositories holen.
-Die Auswirkungen des pull-Befehls sind für beide Clients anders. 
-Warum?
+h)
+Aktualisieren Sie den Workspace "git/client03/brep01" aus dem zentralen Repository.
 
 Tipps:
 git add

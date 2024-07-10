@@ -4,25 +4,24 @@
 Verwenden Sie das zip-Archiv : git_07.zip
 
 a)
-Gegen Sie in das Verzeichnis "git/client01/brep01".
+Gegen Sie in das Verzeichnis "git/client01/repo01".
 Schauen Sie sich die History an.
 
 a)
-Verbleiben Sie im Verzeichnis "git/client01/brep01".
+Verbleiben Sie im Verzeichnis "git/client01/repo01".
 
 Setzen Sie den Arbeitsbereich auf das vorletzte commit
 
 b)
-Erstellen Sie eine neue leere Datei "tiere.txt". Und sichern Sie die Änderungen im Repository.
-
-Schauen Sie sich die History an.
+Erweitern Sie die Bundesliga.txt-Datei um eine Zeile und committen die Änderungen.
+(Beispielsweise "Dortmund")
 
 c)
-Setzen Sie den Arbeitsbereich nun wieder auf das letzte commit vor Ihren Änderungen.
-(das commit, auf das verwiesen wurde, bevor Sie auf das vorletzte commit gesetzt haben ; siehe Aufgabe a) und b))
+Binden Sie nun den Workspace an "repositories/brep01"
 
 d)
-Schauen Sie sich die History an.
+Wechseln Sie in das Verzeichnis "git/client02" und clonen Sie das Repository "repositories/brep01".
+Schauen Sie sich den Inhalt an.
 
 
 
@@ -31,6 +30,7 @@ Tipps:
 git remote
 git add
 git commit 
+git clone
 
 touch bundesliga.txt   (erzeugt eine neue leere Datei)
 ll (Ansicht der im aktuellen Verzeichnis befindlichen Dateien)

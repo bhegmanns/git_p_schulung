@@ -1,10 +1,10 @@
 Übung 05
 ========
 
-Alternativ verwenden Sie das zip-Archiv : git_05.zip
+Verwenden Sie für diese Übung "git_05.zip".
 
 a)
-Öffnen Sie die GIT-Bash im Verzeichnis "git/client01/brep01"
+Öffnen Sie die GIT-Bash im Verzeichnis "git/client01/repo01"
 
 Schauen Sie sich den Status und die History an.
 

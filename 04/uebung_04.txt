@@ -4,43 +4,29 @@
 Verwenden Sie das zip-Archiv : git_04.zip
 
 a)
-Öffnen Sie die GIT-Bash im Verzeichnis "git/client03/brep01"
+Clonen Sie das Repository "git/repos/brepo01" in "git/client01",
+sowie in "git/client02".
 
-Ermitteln Sie das Remote-Repository.
-Führen Sie Änderungen durch, in dem Sie eine neue Datei "bundesliga.txt" anlegen.
-	Beispiel: Erstellen Sie eine neue Datei mit dem Namen "bundesliga.txt"
-	
-Committen Sie ihre Änderungen. (Vergessen Sie nicht die commit-Message ;) )
+In den Verzeichnissen "git/client01/brepo01" sowie "git/client02/brepo02" befindet sich
+eine leere Datei "Bundesliga.txt".
 
 b)
-Öffnen/Wechseln Sie in der GIT-Bash in das Verzeichnis "git/client02"
-Clonen Sie das Repository "git/repositories/brep01".
+Öffnen Sie die Bundesliga.txt-Datei aus "git/client01/brepo01" und fügen eine beliebige Zeile
+hinzu.
 
-Erstellen Sie eine neue Datei "jahreszeiten.txt".
-Committen Sie Ihre durchgeführten Änderungen (vergessen sie nicht die commit-Message ;) )
+Sichern Sie die Änderung im lokalen Repository.
+(vergessen sie NICHT die commit-Message (!))
 
 c)
-Öffnen/Wechseln Sie in der GIT-Bash in das Verzeichnis "git/client01/repo_client01".
-(das ist das Arbeitsverzeichnis)
+Legen sie in "gilt/client02/brepo01" eine neue Datei an, "Lieblingsessen.txt".
+Die Datei kann leer sein; wenn Sie wollen, können Sie aber auch ein paar Zeilen Text hinzufügen.
 
-Erstellen Sie eine neue Datei "lieblingsessen.txt".
-Comitten Sie ihre durchgeführten Änderungen (vergessen sie nicht die commit-Message ;) )
-
-d)
-Stellen Sie sicher, dass Sie sich weiterhin im Verzeichnis "git/client01/repo_client01" befinden.
-
-Ermitteln Sie das Remote-Repositoriy (das sollte nicht existieren ;) )
-Binden sie das lokale Repository an das Repository "git/repositories/brep01" an.
-
-Schauen Sie sich nun an, was welche Dateien sich im aktuellen Verzeichnis befinden.
+Sichern Sie die Änderung im lokalen Repository.
+(vergessen Sie nicht die commit-Message (!))
 
 e)
-Wechseln Sie in das Verzeichnis "git/client04".
-
-Clonen Sie das Repository "git/repositories/brep01".
-
-Wechseln Sie dann in das Verzeichnis "git/client04/brep01".
-Schauen Sie sich den Inhalt des Verzeichnis an.
+Clonen Sie nun das Repository "git/repos/brepo01" in "git/client03".
+Schauen Sie sich das Arbeitsverzeichnis "git/client03/brepo01" an.
 
 
 Tipps:
